@@ -19,7 +19,7 @@ The cmdlet can be used in DevOps processes to automatically generate database do
 
 Before running the cmdlet:
 
-1. Create or open a Documenter project (`.ddoc`) for the `AdventureWorks2025` database in dbForge Documenter for SQL Server or dbForge Studio for SQL Server.
+1. Create or open a Documenter project (`.ddoc`) for the `AdventureWorks2025` database in the all-in-one AI-powered IDE - [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/features.html#documenter) or [dbForge Documenter for SQL Server](https://www.devart.com/dbforge/sql/documenter/).
 2. If necessary, specify the documentation format and any additional generation options.
 
 ### Basic scenario
