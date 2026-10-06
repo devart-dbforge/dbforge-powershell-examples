@@ -4,6 +4,9 @@ The `Publish-DevartDatabaseProject` cmdlet publishes a database project (`Databa
 
 If a `DatabaseProject` object is used for publishing, the cmdlet can automatically increment the package version if a package with the specified version already exists in the repository.
 
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
+
+
 ## Parameters
 
 | Parameter | Required/Optional | Description |
