@@ -26,7 +26,7 @@ This cmdlet is illustrated with two scenarios.
    - [`03_GenerateError.sql`](03_GenerateError.sql)
    - [`04_SelectData.sql`](04_SelectData.sql)
 
-2. In dbForge Studio for SQL Server, create a formatting profile named `CustomProfile`.
+2. In [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/), create a formatting profile named `CustomProfile`.
 
 ### Scenario 1: Format a SQL file
 
@@ -40,7 +40,7 @@ The `01_CreateObjects.sql` file is formatted according to the active formatting 
 
 ### Scenario 2: Format all SQL files in a folder
 
-This scenario demonstrates formatting all SQL files in a folder using additional options. It uses formatting profiles stored in dbForge Studio for SQL Server. If you are using dbForge Studio as part of dbForge Edge, update the `-Profile` parameter accordingly.
+This scenario demonstrates formatting all SQL files in a folder using additional options. It uses formatting profiles stored in dbForge Studio for SQL Server. If you are using dbForge Studio as part of [dbForge Edge](https://www.devart.com/dbforge/edge/), update the `-Profile` parameter accordingly.
 
 PowerShell script: [`format-script-folder.ps1`](format-script-folder.ps1)
 
