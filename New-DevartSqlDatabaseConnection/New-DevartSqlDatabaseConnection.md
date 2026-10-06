@@ -2,9 +2,9 @@
 
 The `New-DevartSqlDatabaseConnection` cmdlet creates and returns a connection object (`DevartDatabaseConnectionInfo`) used by other DevOps Automation cmdlets to perform database operations.
 
-The cmdlet itself does not establish a connection to the server. It only creates a connection object with the specified parameters, which is then passed to other DevOps Automation cmdlets through the `-Connection` parameter.
+The cmdlet itself does not establish a connection to the server. It only creates a connection object with the specified parameters, which is then passed to other DevOps Automation cmdlets through the `-Connection` parameter. This object can be used by any DevOps Automation cmdlet that supports the `-Connection` parameter.
 
-This object can be used by any DevOps Automation cmdlet that supports the `-Connection` parameter.
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
 
 ## Parameters
 
