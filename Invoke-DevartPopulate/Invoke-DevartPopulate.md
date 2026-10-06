@@ -1,6 +1,6 @@
 # Invoke-DevartPopulate
 
-The `Invoke-DevartPopulate` cmdlet populates a database with test data using a [dbForge Data Generator](https://www.devart.com/dbforge/sql/studio/sql-server-data-generator.html) project (`*.dgen`). The data generation project contains generation settings, table population rules, and other options that define the data generation process.
+The `Invoke-DevartPopulate` cmdlet populates a database with test data using a dbForge Data Generator project (`*.dgen`). The data generation project contains generation settings, table population rules, and other options that define the data generation process.
 
 ## Parameters
 
