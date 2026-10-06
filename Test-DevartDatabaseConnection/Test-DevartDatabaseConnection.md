@@ -4,6 +4,9 @@ The `Test-DevartDatabaseConnection` cmdlet checks whether a database connection 
 
 If the connection is successful, the cmdlet returns `True`. If the connection fails, the cmdlet returns `False` and displays an error message.
 
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
+
+
 ## Parameters
 
 | Parameter | Required/Optional | Description |
