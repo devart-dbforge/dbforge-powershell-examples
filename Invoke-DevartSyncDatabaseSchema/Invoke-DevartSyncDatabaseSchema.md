@@ -27,7 +27,7 @@ Before running the cmdlet:
 - Prepare the source and target SQL Server databases, or other supported schema sources and targets (for example, a scripts folder or a NuGet package)
 - Create connection objects using the `New-DevartSqlDatabaseConnection` cmdlet
 - If necessary, prepare additional files:
-  - A Schema Compare filter file (`.scflt`) to restrict the objects included in the synchronization
+  - A Schema Compare filter file (.scflt) to restrict the objects included in the synchronization. The filter file is generated in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/sql-server-schema-compare.html) during a schema comparison.
   - A folder to save the schema comparison report to
 - If needed, specify additional synchronization options, such as the report format, Schema Compare options, transaction isolation level, and SQL command timeout
 
