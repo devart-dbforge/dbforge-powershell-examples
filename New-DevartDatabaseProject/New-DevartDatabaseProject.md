@@ -6,6 +6,8 @@ The resulting project object is used by other DevOps Automation cmdlets to perfo
 
 The cmdlet itself does not build, export, or publish the project. It only creates the database project object, which is then passed to other DevOps Automation cmdlets.
 
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
+
 ## Parameters
 
 | Parameter | Required/Optional| Description |
