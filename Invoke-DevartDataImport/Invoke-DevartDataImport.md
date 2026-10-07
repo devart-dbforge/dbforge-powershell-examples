@@ -2,7 +2,7 @@
 
 The `Invoke-DevartDataImport` cmdlet imports data from files into a SQL Server database.
 
-Import settings (file format, column mapping, delimiters, encoding, and other parameters) are defined in an import template (`*.dit`), which is created in advance in dbForge Data Pump for SQL Server or dbForge Studio for SQL Server. Individual template settings can be overridden during the cmdlet execution.
+Import settings (file format, column mapping, delimiters, encoding, and other parameters) are defined in an import template (`*.dit`), which is created in advance in the all-in-one AI-powered IDE [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/data-export-import.html) or the SSMS add-in [dbForge Data Pump for SQL Server](https://www.devart.com/dbforge/sql/data-pump/). Individual template settings can be overridden during the cmdlet execution.
 
 ## Parameters
 
@@ -17,7 +17,7 @@ Import settings (file format, column mapping, delimiters, encoding, and other pa
 
 ## How to use
 
-> Before trying these examples, create an import template (`*.dit`) in dbForge Data Pump for SQL Server or dbForge Studio for SQL Server. The examples below use the `ImportFromCsv.dit` template saved to `C:\Projects`.
+> Before trying these examples, create an import template (`*.dit`) in dbForge Studio for SQL Server or dbForge Data Pump for SQL Server. The examples below use the `ImportFromCsv.dit` template saved to `C:\Projects`.
 The template is configured to import data from a CSV file.
 
 This cmdlet is illustrated with three scenarios.
