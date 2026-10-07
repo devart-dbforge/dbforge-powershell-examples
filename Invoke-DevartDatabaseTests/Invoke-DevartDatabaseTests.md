@@ -8,6 +8,8 @@ The cmdlet can be used in DevOps processes to:
 - Verify the database logic
 - Validate the schema and test data
 
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
+
 ## Parameters
 
 | Parameter | Required/Optional | Description |
