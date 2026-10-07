@@ -4,6 +4,8 @@
 
 The `Invoke-DevartFindInvalidObjects` cmdlet searches for invalid objects in one or more SQL Server databases. An object is considered invalid if it contains compilation errors or references to missing objects. Based on the check results, the cmdlet can generate a report in CSV format and an execution log.
 
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
+
 ## Parameters
 
 | Parameter | Required/Optional | Description |
