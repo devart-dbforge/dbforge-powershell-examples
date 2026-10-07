@@ -2,7 +2,7 @@
 
 The `Invoke-DevartDataExport` cmdlet exports data from SQL Server in various file formats supported by dbForge.
 
-Export settings (format, table list, column mapping, delimiters, encoding, and other parameters) are defined in an export template (`*.det`), which is created in advance in dbForge Data Pump for SQL Server or dbForge Studio for SQL Server. Individual template settings can be overridden during the cmdlet execution.
+Export settings (format, table list, column mapping, delimiters, encoding, and other parameters) are defined in an export template (`*.det`), which is created in advance in the all-in-one AI-powered IDE [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/data-export-import.html) or the SSMS add-in [dbForge Data Pump for SQL Server](https://www.devart.com/dbforge/sql/data-pump/). Individual template settings can be overridden during the cmdlet execution.
 
 ## Parameters
 
@@ -18,9 +18,8 @@ Export settings (format, table list, column mapping, delimiters, encoding, and o
 
 ## How to use
 
-> Before trying these examples, create an export template (`*.det`) in dbForge Data Pump for SQL Server or dbForge Studio for SQL Server. The examples below use the `ExportToCsv.det` template saved to `C:\Projects`.
+> Before trying these examples, create an export template (`*.det`) in dbForge Studio for SQL Server or dbForge Data Pump for SQL Server. The examples below use the `ExportToCsv.det` template saved to `C:\Projects`.
 This template is configured to:
-
 > - Export the `dbo.Customers` and `dbo.Orders` tables
 > - Export data in CSV format
 > - Save files to the `C:\Artifacts\Export` folder
