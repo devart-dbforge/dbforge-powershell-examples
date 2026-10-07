@@ -4,6 +4,8 @@ The `Export-DevartDatabaseProject` cmdlet exports a database project created fro
 
 The cmdlet can be used in DevOps processes to prepare build artifacts, publish packages, and automate CI/CD pipelines.
 
+This cmdlet can be used in [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/) as well as in other database management environments.
+
 ## How to use
 
 1. [Prepare a scripts folder](https://docs.devart.com/studio-for-sql-server/database-tasks/create-a-scripts-folder.html) with the SQL scripts of the AdventureWorks2025 database. This example uses the `C:\SourceScripts` folder.
